@@ -10,5 +10,9 @@ def root():
 def home():
     return "Welcome from home"
 
+@app.route('/janusz')
+def janusz():
+    return "Janusz"
+
 if __name__ == '__main__':
     app.run('localhost',5050)
